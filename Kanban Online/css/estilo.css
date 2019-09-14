@@ -1,42 +1,29 @@
 body {
-    font: normal 12pt Arial;
+    font: normal 15pt Arial;
+    background: rgb(237, 240, 99);
+    margin: 0%;
+}
+ /*CABEÇALHO DO SITE*/
+header {
+    background: rgb(43, 41, 41);
+    padding: 1%;
+}
+header div {
+    position: relative;
+    text-align: right;
 }
 
-header {
-    background: rgb(13, 160, 197);
-    margin: -21px -9px 0px -9px;
-}
-header ul {
-    text-align: center;
-    list-style: none;
-}
-header ul li {
-    display: inline;
+header h1 a {
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    position: relative;
 }
 
 section {
-    width: 90%;
-    margin: auto;
-}
-section div {
-    background: rgb(57, 173, 202);
-    padding: 5px;
-    margin-bottom: 5%;
-    text-indent: 5px;
-    text-justify: auto;
-    border-radius: 5px;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-}
-section div h2 {
-    border-bottom: 1px solid black;
-    margin-top: 1%;
+    background: white;
 }
 
-
-footer {
-    background: rgb(13, 160, 197);
-    margin: 0px -9px 0px -9px;
-}
 footer p {
     text-align: center;
 }
