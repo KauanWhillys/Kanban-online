@@ -7,21 +7,16 @@ body {
 header {
     background: rgb(43, 41, 41);
     padding: 1%;
+    margin-bottom: 0%;
 }
-header div {
-    position: relative;
-    text-align: right;
-}
-
-header h1 a {
-    text-align: left;
-    text-decoration: none;
-    color: white;
-    position: relative;
+header p{
+    right: 0%;
+    top: 0%;
+    position: absolute;
 }
 
 section {
-    background: white;
+    background: rgb(133, 133, 133);
 }
 
 footer p {

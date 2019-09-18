@@ -1,0 +1,25 @@
+section {
+    background: rgb(43, 41, 41);
+    text-align: center;
+    padding: 2.5%;
+    color: rgb(133, 133, 133);
+}
+
+section p a {
+    color: rgb(104, 23, 209);
+    text-decoration: none;
+}
+
+section p input {
+    border: 1x solid black;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+section input#btnEntrar {
+    padding: 8px;
+    width: 250px;
+    background: rgb(133, 133, 133);
+    border-radius: 3px;
+    border: none;
+}
