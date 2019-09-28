@@ -10,20 +10,32 @@
 <body>
     <header>
         <a href="index.html"><img src="midia/logo.jpg" alt="logo kanban online"/></a>
-        <p style="color:white">PERFIL</p>
+        <p><a href="perfil.html">Perfil</a></p>
     </header>
-    <section>
-        sla
+    <section id="cont">
+        <h2>Kanban 1</h2>
         <div>
-            <h2>Titulo</h2>
-            <p>Texto</p>
+            <h3>Para fazer</h3>
+            <div class="atv">
+                <p>Descrição da atividade</p>
+                <button class="btn" >>></button>
+            </div>
+            <button class="btn" >Adicionar</button>
         </div>
         <div>
-            mais informações
+            <h3>Fazendo</h3>
+        </div>
+        <div>
+            <h3>Finalizados</h3>
         </div>
     </section>
-    <footer>
-        <p>&copy; Nome equipe</p>
-    </footer>
+    <aside>
+        <h3>Kanbans</h3>
+        <nav>
+            <p>Kanban 1</p>
+        </nav>
+        <button class="btn" onclick="criaKanban()">Novo kanban</button>
+    </aside>
+    <script src="js/kanban.js"></script>
 </body>
 </html>

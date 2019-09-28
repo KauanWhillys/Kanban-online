@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Kanban Online</title>
+</head>
+<body onload="meuPerfil()">
+    <header>
+        <a href="index.html"><img src="midia/logo.jpg" alt="logo kanban online"/></a>
+        <p><a href="index.html">↩Voltar</a></p>
+    </header>
+    <section>
+        <form action="" method="post">
+            <div id="cont"></div>
+            <button type="submit" class="btn">Salvar</button>
+        </form>
+    </section>
+    <aside>
+        <img src="midia/perfil.jpg" alt="Foto perfil"/>
+        <p><button class="btn" onclick="meuPerfil()">Meu Perfil</button></p>
+        <p><button class="btn" onclick="alterSen()">Senha</button></p>
+    </aside>
+
+    <script src="js/perfil.js"></script>
+</body>
+</html>

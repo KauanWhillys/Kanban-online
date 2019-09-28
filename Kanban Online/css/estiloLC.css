@@ -1,8 +1,8 @@
 section {
     background: rgb(43, 41, 41);
-    text-align: center;
-    padding: 2.5%;
     color: rgb(133, 133, 133);
+    float: none;
+    margin: auto;
 }
 
 section p a {
@@ -16,7 +16,7 @@ section p input {
     padding: 10px;
 }
 
-section input#btnEntrar {
+section form button.btn {
     padding: 8px;
     width: 250px;
     background: rgb(133, 133, 133);
